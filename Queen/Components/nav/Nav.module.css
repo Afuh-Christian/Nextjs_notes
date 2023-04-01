@@ -1,0 +1,227 @@
+
+
+.navbarmom{
+    overflow: hidden;
+}
+
+.header{
+    height: 100px;
+    background-color:   rgb(35, 14, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 8px 15px 0 rgba(119, 117, 117, 0.3);
+}
+
+.header > div {
+    margin-inline: 20px;
+}
+
+.header > .titleactions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > .title > .titletxt {
+    font-size: 25px ;
+}
+
+.userimage > img {
+    width: 45px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabnavbar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    margin: 0px 30px 0px 0px;
+    background-color:  rgb(35, 14, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 14px ;
+    box-shadow: 0 8px 15px 0 rgba(119, 117, 117, 0.3);
+}
+
+.tabnavbar > div {
+    margin: 10px 30px 0px 30px;
+}
+
+.imghome > img {
+    width: 40px;
+    height: 20px;
+    background-color:  rgb(35, 14, 35);
+    background-color: transparent;
+}
+
+.imgcreate > img {
+    width: 45px;
+    height: 55px;
+    background-color:  rgb(35, 14, 35);
+    background-color: transparent;
+}
+.imgphone > img {
+    width: 40px;
+    height: 20px;
+    background-color:  rgb(35, 14, 35);
+    background-color: transparent;
+}
+
+
+
+
+/* ............slidding menu............... */
+
+.menu {
+    width: 100%;
+    height: 320px;
+    background-color:  rgb(35, 14, 35);
+    transform: translateY(+400px);
+    transition: 0.5s;
+    overflow-y: auto;
+    box-shadow: 0 20px 150px 0 rgba(36, 35, 35, 0.3);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+  }
+  
+  .menu::-webkit-scrollbar {
+    background:rgb(240, 140, 155);
+    width: 5px;
+  }
+  
+
+  .showmenu {
+    width: 100%;
+    height: 320px;
+    background-color:  rgb(35, 14, 35);
+    transform: translateY(0);
+    transition: 0.5s;
+    overflow-y: auto;
+    box-shadow: 0 20px 150px 0 rgba(36, 35, 35, 0.3);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+   
+  }
+
+
+  .head_content{
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      
+  }
+
+.hea_title{
+    padding-left: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.li{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
+.li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-weight 0.2s;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+   
+  }
+ .li a:hover {
+    font-weight: bold;
+    /* color:rgb(201, 167, 224); */
+  }
+
+/* .li > a >div {
+    margin-inline-start: 20px;
+} */
+
+/*Menu exit*/
+.exit {
+    color:white;
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+    padding-left: 20px;
+    position: relative;
+    top:8px; 
+    right: 15px;
+    float: right;
+  }
+ 
+
+  .exit:hover {
+    /* font-weight: bold; */
+    /* color:rgb(201, 167, 224); */
+  }
+
+
+.imgmomo > img {
+    height: 40px; 
+    width: 60px;
+}
+.imgwhatsapp > img {
+    height: 40px; 
+    width: 60px;
+}
+.imgfacebook > img {
+    height: 40px; 
+    width: 40px;
+}
+.imginstagram > img {
+    height: 40px; 
+    width: 40px;
+}
+
+
+header .responsive_nav{
+    transform:none;
+    -webkit-transform:none;
+    -moz-transform:none;
+    -ms-transform:none;
+    -o-transform:none;
+}

@@ -1,0 +1,75 @@
+
+
+
+.section{
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    font-size: 19px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(21, 20, 20);
+
+}
+
+.section   > div {
+    background: linear-gradient(white,rgb(38, 3, 38)) ;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px 0 rgba(119, 117, 117, 0.3);
+    
+} 
+
+.section  > div > form >div > div {
+    margin-block: 20px;
+    margin-inline: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.section  > div > form >div > div > input {
+    width: 170px;
+    height: 30px;
+    border-radius: 9px;
+    font-size: 19px;
+}
+
+.section > div > form  >div >  div > label {
+    font-size: 19px;
+}
+
+.section  div  > form > .submit > button {
+    width:80px;
+    height: 35px;
+    font-size: 16px;
+    float: right;
+    position: relative;
+    bottom: -10px;
+    right: 10px;
+    border-radius: 10px;
+    background-color: rgb(184, 184, 186);
+
+}
+
+.section  div  > form > .login {
+    position: relative;
+    bottom: -80px;
+    margin-inline: 10px;
+    color:white;
+}
+
+.section  div  > form > .login > p {
+    white-space: nowrap;
+}
+
+.section  div  > form > .login > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 68, 145);
+}

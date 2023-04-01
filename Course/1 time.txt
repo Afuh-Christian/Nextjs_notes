@@ -1,0 +1,38 @@
+Timestamps:
+Welcome 00:00
+What is NextJS? 00:46
+Key Feature: Server-side (Pre-) Rendering of Pages 05:31
+Key Feature: File-based Routing 12:09
+Key Feature: Build Fullstack Apps With Ease 15:22 
+Creating a NextJS Project & IDE Setup 17:12
+Analyzing the Created Project 22:52
+Adding First Pages To The Project 25:44
+Adding Nested Pages / Paths 31:50
+Creating Dynamic Pages 35:37
+Extracting Dynamic Route Data 39:13
+Linking Between Pages 43:21
+Onwards To A Bigger Project! 50:34
+Preparing Our Project Pages 54:07
+Rendering A List Of (Dummy) Meetups 57:49
+Adding A Form For Adding Meetups 01:02:52
+The "_app.js" File & Wrapper Components 01:06:47
+Programmatic Navigation 01:13:04
+Adding Custom Components & Styling With CSS 01:16:51
+Modules
+How NextJS Page Pre-Rendering Actually Works 01:26:51
+Introducing Data Fetching For Page Generation 
+(getStaticProps) 01:32:43
+More Static Site Generation (SSG) With getStaticProps 01:41:39
+Exploring getServerSideProps 01:47:23
+Working With Dynamic Path Params In getStaticProps 01:53:50
+Dynamic Pages & getStaticProps & getStaticPaths 01:59:04
+Introducing API Routes 02:06:21
+Connecting & Querying a MongoDB Database 02:12:41
+Sending HTTP Requests To API Routes 02:22:13
+Getting Data From The Database (For Page
+Pre-Rendering) 02:29:02
+Getting Meetup Detail Data & Paths 02:36:12
+Adding "head" Metadata To Pages 02:45:53
+Deploying NextJS Projects 02:55:12
+Working With Fallback Pages & Re-Deploying 03:07:38
+Summary 03:11:52

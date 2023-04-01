@@ -1,0 +1,27 @@
+# alwasys check for meta data .... 
+
+include the scription meta tag for search engines ... 
+
+# page title ... 
+
+
+import Head from  'next/head'
+import Fragment from 'react' 
+
+
+function HomePage(props) {
+    // console.log(props.meetups)
+    const a = "this is a cool website "
+    return (<Fragment>
+        <Head>
+            <title>My website </title>
+            <meta name="description" content={a}/>
+        </Head>
+        <MeetupList meetups={props.meetups} />
+        </Fragment>
+    );
+}
+
+
+# this should be done on all the pages so as to help search engines ..... ... 
+
